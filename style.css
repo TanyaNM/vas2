@@ -1,0 +1,38 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+}
+h1{
+    text-align: center;
+    color: red;
+}
+
+
+
+.galary img{
+    width: 300px;
+    height: 300px;
+    border: 4px double grey;
+}   
+.galary{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+nav a{
+border:2px solid white;
+text-decoration: none;
+padding: 15px;
+margin: 15px;
+
+}
+nav{
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    margin: 25px;
+}
+footer{
+    background-color: darkgrey;
+}
